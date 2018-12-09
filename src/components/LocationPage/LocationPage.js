@@ -2,8 +2,11 @@ import React, { Component } from 'react';
 import './LocationPage.scss';
 import { Parallax } from 'react-parallax';
 
-
 export default class LocationPage extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0)
+  }
+
   render() {
     return (
       <div className="location">

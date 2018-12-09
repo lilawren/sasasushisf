@@ -3,6 +3,10 @@ import './Reservations.scss';
 import { Parallax } from 'react-parallax';
 
 export default class Reservations extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0)
+  }
+
   render() {
     return (
       <div className="reservations">

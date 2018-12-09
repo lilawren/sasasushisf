@@ -3,6 +3,10 @@ import './Menu.scss';
 import { Parallax } from 'react-parallax';
 
 export default class Menu extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0)
+  }
+
   render() {
     return (
       <div className="menu">
