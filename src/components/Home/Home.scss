@@ -1,3 +1,19 @@
 .home {
-  background-color: pink;
+  .hero {
+    height: calc(100vh - 60px);
+    &.small {
+      height: 300px;
+    }
+    h1 {
+      color: white;
+      margin-left: 50px;
+    }
+  }
+  .content-row {
+    padding: 50px 10px;
+    text-align: center;
+    h2 {
+      margin-top: 0px
+    }
+  }
 }

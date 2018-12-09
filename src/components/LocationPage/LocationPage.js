@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
-import './Menu.scss';
+import './LocationPage.scss';
 import { Parallax } from 'react-parallax';
 
-export default class Menu extends Component {
+
+export default class LocationPage extends Component {
   render() {
     return (
-      <div className="menu">
+      <div className="location">
         <Parallax
           bgImage={require('../../assets/home/rock.jpg')}
           bgImageAlt="interior"
@@ -14,7 +15,7 @@ export default class Menu extends Component {
           <div className="hero">
             <div className="content">
               <h1>
-                MENU
+                LOCATION
               </h1>
               <div className="content-row">
               <div className="address">

@@ -1,0 +1,26 @@
+.footer {
+  background: #111111;
+  color: white;
+  padding: 80px 50px;
+  display: flex;
+  justify-content: space-between;
+  a {
+    text-decoration: none;
+    &:visited {
+      color: white;
+    }
+  }
+  .info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10px;
+  }
+  .social {
+    display: grid;
+    grid-column-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    img {
+      height: 50px;
+    }
+  }
+}

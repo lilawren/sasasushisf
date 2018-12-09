@@ -1,0 +1,26 @@
+.location {
+  .hero {
+    min-height: calc(100vh - 60px);
+    position: relative;
+    h1 {
+      color: white;
+    }
+    .content {
+      position: absolute;
+      left: 50px;
+      .content-row {
+        background: white;
+        padding: 0px 60px;
+        min-height: 200px;
+        display: flex;
+        align-items: center;
+        .address {
+          & > div {
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+
+}

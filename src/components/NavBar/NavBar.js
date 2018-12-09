@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './NavBar.scss';
 
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 
 export default class NavBar extends Component {
