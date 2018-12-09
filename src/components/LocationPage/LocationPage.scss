@@ -8,6 +8,11 @@
     .content {
       position: absolute;
       left: 50px;
+      @media only screen and (max-width: 960px) {
+        width: calc(100vw - 100px);
+        margin: 0px 50px;
+        left: initial;
+      }
       .content-row {
         background: white;
         padding: 0px 60px;

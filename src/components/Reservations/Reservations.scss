@@ -1,0 +1,20 @@
+.reservations {
+  .hero {
+    min-height: calc(100vh - 60px);
+    position: relative;
+    h1 {
+      color: white;
+    }
+    .content {
+      position: absolute;
+      width: calc(100vw - 100px);
+      margin: 0px 50px;
+      .content-row {
+        background: white;
+        padding: 60px;
+        min-height: 300px;
+      }
+    }
+  }
+
+}

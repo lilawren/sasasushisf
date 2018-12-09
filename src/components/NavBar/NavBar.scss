@@ -7,17 +7,26 @@
   top: 0px;
   width: 100%;
   z-index: 100;
-  background: white;
+  background: #ffffffee;
   a.logo-link, img {
     height: 100%;
   }
   .links {
     display: flex;
+    @media only screen and (max-width: 960px) {
+      flex: 1;
+    }
     a {
       padding: 0px 10px;
       text-decoration: none;
       color: black;
       font-size: 13px;
+      @media only screen and (max-width: 960px) {
+        padding: 0px 5px;
+        flex: 1;
+        display: flex;
+        justify-content: center;
+      }
       &:hover {
         color: gray;
       }
