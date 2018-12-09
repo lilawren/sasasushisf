@@ -1,0 +1,22 @@
+.navbar {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  a.logo-link, img {
+    height: 100%;
+  }
+  .links {
+    a {
+      padding: 0px 10px;
+      text-decoration: none;
+      color: black;
+      &:hover {
+        color: gray;
+      }
+    }
+  }
+}
