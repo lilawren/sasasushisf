@@ -9,10 +9,10 @@ export default class NavBar extends Component {
     return (
       <nav className="navbar">
         <Link className="logo-link" to='/'>
-          <img src="https://theultralinx.com/.image/t_share/MTI5MDI1MjE1MzQ5OTI2NTMx/163.jpg" alt="logo"/>
+          <img src={require('../../assets/sasa.png')} alt="logo"/>
         </Link>
         <div className="links">
-          <Link to='/'>HOME</Link>
+          <Link className="mobile-hidden" to='/'>HOME</Link>
           <Link to='/location'>LOCATION</Link>
           <Link to='/menu'>MENU</Link>
           <Link to='/reservations'>RESERVATIONS</Link>

@@ -27,8 +27,8 @@ export default class Footer extends Component {
         </div>
         <div className="social">
           <a href='https://www.yelp.com/biz/sasa-san-francisco' target="_blank"><img src={yelp} /></a>
-          <Link to='/'><img src={ig} /></Link>
-          <Link to='/'><img src={fb} /></Link>
+          <a href='https://www.instagram.com/sasa_sanfrancisco' target="_blank"><img src={ig} /></a>
+          <a href='https://www.facebook.com/pages/category/Japanese-Restaurant/Sasa-Japanese-Restaurant-1275103022630839/' target="_blank"><img src={fb} /></a>
         </div>
       </div>
     );

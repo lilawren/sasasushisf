@@ -6,7 +6,8 @@ import { Link } from 'react-router-dom';
 
 export default class Home extends Component {
   componentDidMount() {
-    window.scrollTo(0, 0)
+    window.scrollTo(0, 0);
+    document.title = 'Sasa sushi — Home';
   }
 
   render() {

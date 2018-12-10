@@ -4,7 +4,8 @@ import { Parallax } from 'react-parallax';
 
 export default class LocationPage extends Component {
   componentDidMount() {
-    window.scrollTo(0, 0)
+    window.scrollTo(0, 0);
+    document.title = 'Sasa sushi — Location';
   }
 
   render() {
