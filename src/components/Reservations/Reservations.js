@@ -22,7 +22,7 @@ export default class Reservations extends Component {
                 RESERVATIONS
               </h1>
               <div className="content-row">
-              <iframe id="yelp-reservations-widget" frameborder="0" width="100%" height="88" src="//www.yelp.com/reservations/sasa-japanese-restaurant-san-francisco/widget?orientation=horizontal&color-scheme=light" > <a href='https://www.yelp.com/reservations/sasa-japanese-restaurant-san-francisco'>Reserve at Sasa Japanese Restaurant on Yelp</a> </iframe>
+              <iframe id="yelp-reservations-widget" frameBorder="0" width="100%" height="88" src="//www.yelp.com/reservations/sasa-japanese-restaurant-san-francisco/widget?orientation=horizontal&color-scheme=light" > <a href='https://www.yelp.com/reservations/sasa-japanese-restaurant-san-francisco'>Reserve at Sasa Japanese Restaurant on Yelp</a> </iframe>
               </div>
             </div>
           </div>

@@ -23,6 +23,7 @@ export default class LocationPage extends Component {
               </h1>
               <div className="content-row">
                 <div className="address">
+                  <div>Japantown East Mall (2nd floor, above Daiso)</div>
                   <div>22 Peace Plz</div>
                   <div>Ste 530</div>
                   <div>San Francisco, CA 94115</div>

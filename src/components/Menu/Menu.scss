@@ -5,18 +5,27 @@
     h1 {
       color: white;
     }
+    h2 {
+      text-align: center;
+    }
     .content {
-      position: absolute;
+      // position: absolute;
       width: calc(100vw - 100px);
-      margin: 0px 50px;
+      margin: 0px 50px 50px 50px;
       @media only screen and (max-width: 960px) {
         width: calc(100vw - 40px);
-        margin: 0px 20px;
+        margin: 0px 20px 50px 20px;
       }
       .content-row {
         background: white;
         padding: 60px;
         min-height: 300px;
+        @media only screen and (max-width: 960px) {
+          padding: 10px;
+        }
+        .menu {
+          width: 100%;
+        }
       }
     }
   }

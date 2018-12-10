@@ -22,11 +22,11 @@ export default class Menu extends Component {
                 MENU
               </h1>
               <div className="content-row">
-              <div className="address">
-                <div>810 Van Ness Ave.</div>
-                <div>San Francisco, CA 94109 </div>
-                <div>(415) 829-8291</div>
-              </div>
+                <h2>Lunch Menu</h2>
+                <img className="menu" src={require('../../assets/menu/lunch.png')} alt="lunchMenu" />
+                <hr/>
+                <h2>Dinner Menu</h2>
+                <img className="menu" src={require('../../assets/menu/dinner.png')} alt="dinnerMenu" />
               </div>
             </div>
           </div>
