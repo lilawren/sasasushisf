@@ -21,11 +21,15 @@ export default class LocationPage extends Component {
                 LOCATION
               </h1>
               <div className="content-row">
-              <div className="address">
-                <div>810 Van Ness Ave.</div>
-                <div>San Francisco, CA 94109 </div>
-                <div>(415) 829-8291</div>
-              </div>
+                <div className="address">
+                  <div>22 Peace Plz</div>
+                  <div>Ste 530</div>
+                  <div>San Francisco, CA 94115</div>
+                  <div>(415) 683-9673</div>
+                </div>
+                <div>Open Tuesday-Sunday</div>
+                <div>12:00pm - 2:30pm (lunch)</div>
+                <div>5:00pm-9:30pm (dinner)</div>
               </div>
             </div>
           </div>

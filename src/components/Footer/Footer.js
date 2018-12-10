@@ -13,18 +13,20 @@ export default class Footer extends Component {
       <div className="footer">
         <div className="info">
           <div className="address">
-            <div>810 Van Ness Ave.</div>
-            <div>San Francisco, CA 94109 </div>
-            <div>(415) 829-8291</div>
+            <div>22 Peace Plz</div>
+            <div>Ste 530</div>
+            <div>San Francisco, CA 94115</div>
+            <div>(415) 683-9673</div>
           </div>
           <div className="hours">
             <div>Tuesday-Sunday</div>
-            <div>6:00pm-10:00pm (dinner only)</div>
+            <div>12:00pm - 2:30pm (lunch)</div>
+            <div>5:00pm-9:30pm (dinner)</div>
             <div><i>Site created by <a href="http://www.lalicode.com" target="_blank">Lawrence Li</a></i></div>
           </div>
         </div>
         <div className="social">
-          <Link to='/'><img src={yelp} /></Link>
+          <a href='https://www.yelp.com/biz/sasa-san-francisco' target="_blank"><img src={yelp} /></a>
           <Link to='/'><img src={ig} /></Link>
           <Link to='/'><img src={fb} /></Link>
         </div>
