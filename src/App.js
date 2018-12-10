@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.scss';
 
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { HashRouter, Route, Link } from 'react-router-dom';
 import Home from './components/Home/Home';
 import NavBar from './components/NavBar/NavBar';
 import LocationPage from './components/LocationPage/LocationPage';
@@ -12,7 +12,7 @@ import Footer from './components/Footer/Footer';
 class App extends Component {
   render() {
     return (
-      <Router>
+      <HashRouter>
         <div className="app">
           <NavBar />
           <div className="general-container">
@@ -23,7 +23,7 @@ class App extends Component {
           </div>
           <Footer />
         </div>
-      </Router>
+      </HashRouter>
     );
   }
 }
