@@ -12,7 +12,7 @@ export default class Menu extends Component {
     return (
       <div className="menu">
         <Parallax
-          bgImage={require('../../assets/home/rock.jpg')}
+          bgImage={require('../../assets/menu/1.jpg')}
           bgImageAlt="interior"
           strength={200}
         >

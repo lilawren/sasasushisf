@@ -34,4 +34,19 @@
       padding-top: 100%;
     }
   }
+
+  .chef-grid {
+    display: grid;
+    grid-row-gap: 50px;
+    margin-bottom: 50px;
+    .chef {
+      flex-direction: column;
+      display: flex;
+      align-items: center;
+      .portrait {
+        width: 300px;
+        height: 300px;
+      }
+    }
+  }
 }
