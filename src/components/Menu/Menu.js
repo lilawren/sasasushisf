@@ -5,7 +5,7 @@ import { Parallax } from 'react-parallax';
 export default class Menu extends Component {
   componentDidMount() {
     window.scrollTo(0, 0);
-    document.title = 'Sasa sushi — Menu';
+    document.title = 'Sasa Japanese — Menu';
   }
 
   render() {

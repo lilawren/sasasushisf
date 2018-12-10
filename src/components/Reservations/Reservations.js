@@ -5,7 +5,7 @@ import { Parallax } from 'react-parallax';
 export default class Reservations extends Component {
   componentDidMount() {
     window.scrollTo(0, 0);
-    document.title = 'Sasa sushi — Reservations';
+    document.title = 'Sasa Japanese — Reservations';
   }
 
   render() {

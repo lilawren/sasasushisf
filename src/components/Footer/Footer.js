@@ -11,7 +11,7 @@ export default class Footer extends Component {
       <div className="footer">
         <div className="info">
           <div className="address">
-            <div>Japantown East Mall (2nd floor, above Daiso)</div>
+            <div>Japan Center East Mall (2nd floor, above Daiso)</div>
             <div>22 Peace Plz</div>
             <div>Ste 530</div>
             <div>San Francisco, CA 94115</div>
