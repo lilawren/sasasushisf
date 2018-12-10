@@ -23,10 +23,10 @@ export default class Menu extends Component {
               </h1>
               <div className="content-row">
                 <h2>Lunch Menu</h2>
-                <img className="menu" src={require('../../assets/menu/lunch.png')} alt="lunchMenu" />
+                <img className="menu" src={require('../../assets/menu/lunch.jpg')} alt="lunchMenu" />
                 <hr/>
                 <h2>Dinner Menu</h2>
-                <img className="menu" src={require('../../assets/menu/dinner.png')} alt="dinnerMenu" />
+                <img className="menu" src={require('../../assets/menu/dinner.jpg')} alt="dinnerMenu" />
               </div>
             </div>
           </div>
