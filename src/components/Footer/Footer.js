@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import './Footer.scss';
 
-import { Link } from 'react-router-dom';
-
 import yelp from '../../assets/footer/yelp.svg';
 import ig from '../../assets/footer/instagram.svg';
 import fb from '../../assets/footer/facebook.svg';
