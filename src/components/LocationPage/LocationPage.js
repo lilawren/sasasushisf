@@ -27,7 +27,7 @@ export default class LocationPage extends Component {
                   <div>22 Peace Plz</div>
                   <div>Ste 530</div>
                   <div>San Francisco, CA 94115</div>
-                  <div>(415) 683-9673</div>
+                  <div>(415) 683-9674</div>
                 </div>
                 <div>Open Tuesday-Sunday</div>
                 <div>12:00pm - 2:30pm (lunch)</div>
