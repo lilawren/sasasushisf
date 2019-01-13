@@ -14,7 +14,7 @@ export default class Home extends Component {
     return (
       <div className="home">
         <Parallax
-          bgImage={require('../../assets/home/food/2.jpg')}
+          bgImage={require('../../assets/home/backgrounds/1.jpg')}
           bgImageAlt="interior"
           strength={200}
         >
@@ -30,8 +30,8 @@ export default class Home extends Component {
           <div>based on traditional kaiseki cooking techniques with American influences</div>
         </div>
 
-        {/* <Parallax
-          bgImage={require('../../assets/home/rock.jpg')}
+        <Parallax
+          bgImage={require('../../assets/home/backgrounds/3.jpg')}
           bgImageAlt="interior"
           strength={200}
         >
@@ -43,23 +43,17 @@ export default class Home extends Component {
         </Parallax>
 
         <div className="content-row">
-          <h2>Sasa is Japantown's premier sushi restaurant</h2>
-          <div>with ingredients sourced from Japan and Canada</div>
+          {/* <h2>Sasa is Japantown's premier sushi restaurant</h2>
+          <div>with ingredients sourced from Japan and Canada</div> */}
           <div className="image-grid">
-            <div className="item" style={{backgroundImage: `url(${require('../../assets/home/2.jpg')})`}} />
-            <div className="item" style={{backgroundImage: `url(${require('../../assets/home/2.jpg')})`}} />
-            <div className="item" style={{backgroundImage: `url(${require('../../assets/home/2.jpg')})`}} />
-            <div className="item" style={{backgroundImage: `url(${require('../../assets/home/2.jpg')})`}} />
-            <div className="item" style={{backgroundImage: `url(${require('../../assets/home/2.jpg')})`}} />
-            <div className="item" style={{backgroundImage: `url(${require('../../assets/home/2.jpg')})`}} />
-            <div className="item" style={{backgroundImage: `url(${require('../../assets/home/2.jpg')})`}} />
-            <div className="item" style={{backgroundImage: `url(${require('../../assets/home/2.jpg')})`}} />
-            <div className="item mobile-hidden" style={{backgroundImage: `url(${require('../../assets/home/2.jpg')})`}} />
+            <div className="item" style={{backgroundImage: `url(${require('../../assets/home/food/4.jpg')})`}} />
+            <div className="item" style={{backgroundImage: `url(${require('../../assets/home/food/3.jpg')})`}} />
+            <div className="item" style={{backgroundImage: `url(${require('../../assets/home/food/5.jpg')})`}} />
           </div>
-        </div> */}
+        </div>
 
-          <Parallax
-          bgImage={require('../../assets/home/food/1.jpg')}
+        <Parallax
+          bgImage={require('../../assets/home/backgrounds/2.jpg')}
           bgImageAlt="interior"
           strength={200}
         >

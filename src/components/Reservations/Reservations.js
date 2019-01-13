@@ -12,7 +12,7 @@ export default class Reservations extends Component {
     return (
       <div className="reservations">
         <Parallax
-          bgImage={require('../../assets/reservations/1.jpg')}
+          bgImage={require('../../assets/home/backgrounds/3.jpg')}
           bgImageAlt="interior"
           strength={200}
         >

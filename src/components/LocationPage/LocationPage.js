@@ -12,7 +12,7 @@ export default class LocationPage extends Component {
     return (
       <div className="location">
         <Parallax
-          bgImage={require('../../assets/location/1.jpg')}
+          bgImage={require('../../assets/location/2.jpg')}
           bgImageAlt="interior"
           strength={200}
         >
