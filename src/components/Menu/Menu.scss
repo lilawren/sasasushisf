@@ -23,8 +23,20 @@
         @media only screen and (max-width: 960px) {
           padding: 10px;
         }
-        .menu {
-          width: 100%;
+        .menu-container {
+          display: flex;
+          justify-content: center;
+          @media only screen and (max-width: 960px) {
+            display: initial;
+          }
+          .menu {
+            @media only screen and (max-width: 960px) {
+              width: 100%;
+            }
+            @media only screen and (min-width: 961px) {
+              max-height: 1000px;
+            }
+          }
         }
       }
     }
