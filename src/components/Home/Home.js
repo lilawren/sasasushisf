@@ -14,7 +14,7 @@ export default class Home extends Component {
     return (
       <div className="home">
         <div className="video-borders">
-          <video controls autoPlay muted src={require('../../assets/videos/VUE_20190605201117.mp4')} />
+          <video controls autoPlay muted src='/videos/VUE_20190605201117.mp4' />
         </div>
 
         <div className="content-row">
