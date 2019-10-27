@@ -13,17 +13,9 @@ export default class Home extends Component {
   render() {
     return (
       <div className="home">
-        <Parallax
-          bgImage={require('../../assets/home/backgrounds/1.jpg')}
-          bgImageAlt="interior"
-          strength={200}
-        >
-          <div className="hero">
-            {/* <h1>
-              JAPAN TOWN'S PREMIER SUSHI RESTAURANT
-            </h1> */}
-          </div>
-        </Parallax>
+        <div className="video-borders">
+          <video controls autoPlay muted src={require('../../assets/videos/VUE_20190605201117.mp4')} />
+        </div>
 
         <div className="content-row">
           <h2>Sasa offers an innovative Japanese Culinary Experince</h2>
