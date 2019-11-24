@@ -29,9 +29,27 @@ export default class LocationPage extends Component {
                   <div>San Francisco, CA 94115</div>
                   <div>(415) 683-9674</div>
                 </div>
-                <div>Open Tuesday-Sunday</div>
-                <div>12:00pm - 2:30pm (lunch)</div>
-                <div>5:00pm-9:30pm (dinner)</div>
+                <h3>Hours</h3>
+                <div>Monday - Closed</div>
+                <br />
+                <div>Tuesday-Thursday</div>
+                <div>12:00pm - 2:00pm</div>
+                <div>5:30pm-9:30pm</div>
+                <br />
+
+                <div>Friday</div>
+                <div>12:00pm - 2:00pm</div>
+                <div>5:30pm-10:00pm</div>
+                <br />
+
+                <div>Saturday</div>
+                <div>12:00pm - 2:30pm</div>
+                <div>5:30pm-10:00pm</div>
+                <br />
+
+                <div>Sunday</div>
+                <div>12:00pm - 2:30pm</div>
+                <div>5:00pm-9:30pm</div>
               </div>
             </div>
           </div>
