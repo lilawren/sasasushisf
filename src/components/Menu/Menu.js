@@ -28,8 +28,15 @@ export default class Menu extends Component {
                 <div className="menu-container">
                   <img
                     className="menu"
-                    src={require("../../assets/menu/togo.jpg")}
+                    src={require("../../assets/menu/togo1.jpg")}
                     alt="togoMenu"
+                  />
+                </div>
+                <div className="menu-container">
+                  <img
+                    className="menu"
+                    src={require("../../assets/menu/togo2.jpg")}
+                    alt="togoMenu2"
                   />
                 </div>
                 <h2>Lunch Menu</h2>
