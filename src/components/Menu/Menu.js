@@ -54,18 +54,18 @@ export default class Menu extends Component {
                 <div className="menu-container">
                   <img
                     className="menu"
-                    src={require("../../assets/menu/togo1.jpg")}
+                    src={require("../../assets/menu/togo2a.jpg")}
                     alt="togoMenu"
                   />
                 </div>
                 <div className="menu-container">
                   <img
                     className="menu"
-                    src={require("../../assets/menu/togo2.jpg")}
+                    src={require("../../assets/menu/togo2b.jpg")}
                     alt="togoMenu2"
                   />
                 </div>
-                <h2>Lunch Menu</h2>
+                {/* <h2>Lunch Menu</h2>
                 <div className="menu-container">
                   <img
                     className="menu"
@@ -94,7 +94,7 @@ export default class Menu extends Component {
                     src={require("../../assets/menu/menu.jpg")}
                     alt="dinnerMenu"
                   />
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
