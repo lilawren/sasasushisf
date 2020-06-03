@@ -31,6 +31,7 @@ export default class Menu extends Component {
                       href="https://ordering.app/api/clover/brand_url/?clover_merchant_id=TQSSQEWH5HNW1"
                       target="_blank"
                       rel="noopener noreferrer"
+                      className="instore-button"
                       style={{ fontWeight: 600 }}
                     >
                       Make a In-store Pickup Order

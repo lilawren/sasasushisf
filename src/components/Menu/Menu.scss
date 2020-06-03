@@ -6,8 +6,10 @@
     margin-top: 10px;
     flex-wrap: wrap;
     a {
-      margin: 10px;
-      font-size: 24px;
+      margin: 20px;
+      &.instore-button {
+        font-size: 24px;
+      }
     }
   }
   .hero {
