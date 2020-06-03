@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./Menu.scss";
 import { Parallax } from "react-parallax";
 import DoordashButton from "./DoordashButton";
+import OrderingButton from "./OrderingButton";
 
 export default class Menu extends Component {
   componentDidMount() {
@@ -27,15 +28,7 @@ export default class Menu extends Component {
                   Coronavirus quarantine.
                   <div className="order-buttons">
                     <DoordashButton />
-                    <a
-                      href="https://ordering.app/api/clover/brand_url/?clover_merchant_id=TQSSQEWH5HNW1"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="instore-button"
-                      style={{ fontWeight: 600 }}
-                    >
-                      Make a In-store Pickup Order
-                    </a>
+                    <OrderingButton />
                   </div>
                 </div>
                 <div className="menu-container">

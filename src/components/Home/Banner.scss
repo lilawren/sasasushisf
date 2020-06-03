@@ -2,4 +2,21 @@
   text-align: center;
   padding: 10px;
   font-weight: 600;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  .dd-logo {
+    height: 18px;
+    width: 154px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px 5px;
+  }
+  .ordering-logo {
+    height: 20px;
+    width: 77px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px 5px;
+  }
 }
