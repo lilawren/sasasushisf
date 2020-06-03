@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./Menu.scss";
 import { Parallax } from "react-parallax";
+import DoordashButton from "./DoordashButton";
 
 export default class Menu extends Component {
   componentDidMount() {
@@ -24,32 +25,17 @@ export default class Menu extends Component {
                 <div className="center">
                   Note: We will still be accepting to-go orders during the
                   Coronavirus quarantine.
-                  <br />
-                  <br />
-                  <a
-                    href="https://www.doordash.com/business/431549/?utm_source=partner-link&utm_medium=website&utm_campaign=431549&utm_content=red-xl"
-                    target="_blank"
-                    alt="Order Food Delivery with DoorDash"
-                    title="Order Food Delivery with DoorDash"
-                    style={{
-                      "text-decoration": "none",
-                    }}
-                  >
-                    <div
-                      style={{
-                        position: "relative",
-                        width: "268px",
-                        height: "118px",
-                        margin: "0px auto",
-                        backgroundImage:
-                          "url(https://cdn.doordash.com/media/button/button_red_xl.svg)",
-                        color: "transparent",
-                      }}
+                  <div className="order-buttons">
+                    <DoordashButton />
+                    <a
+                      href="https://ordering.app/api/clover/brand_url/?clover_merchant_id=TQSSQEWH5HNW1"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      style={{ fontWeight: 600 }}
                     >
-                      Order Food Delivery with DoorDash
-                    </div>
-                    <br />
-                  </a>
+                      Make a In-store Pickup Order
+                    </a>
+                  </div>
                 </div>
                 <div className="menu-container">
                   <img

@@ -1,4 +1,15 @@
 .menu {
+  .order-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    a {
+      margin: 10px;
+      font-size: 24px;
+    }
+  }
   .hero {
     min-height: calc(100vh - 60px);
     position: relative;
@@ -42,5 +53,4 @@
       }
     }
   }
-
 }
