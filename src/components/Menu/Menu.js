@@ -34,14 +34,14 @@ export default class Menu extends Component {
                 <div className="menu-container">
                   <img
                     className="menu"
-                    src={require("../../assets/menu/togo3a.jpg")}
+                    src={require("../../assets/menu/togo4a.jpg")}
                     alt="togoMenu"
                   />
                 </div>
                 <div className="menu-container">
                   <img
                     className="menu"
-                    src={require("../../assets/menu/togo3b.jpg")}
+                    src={require("../../assets/menu/togo4b.jpg")}
                     alt="togoMenu2"
                   />
                 </div>
