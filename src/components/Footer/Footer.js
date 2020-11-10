@@ -23,16 +23,6 @@ export default class Footer extends Component {
               <div>12:00pm - 2:00pm</div>
               <div>5:30pm - 9:00pm</div>
             </div>
-            <div>
-              <div>
-                <i>
-                  Site created by{" "}
-                  <a href="http://www.lalicode.com" target="_blank">
-                    Lawrence Li
-                  </a>
-                </i>
-              </div>
-            </div>
           </div>
         </div>
         <div className="social">
