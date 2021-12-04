@@ -3,7 +3,7 @@ import React from "react";
 function DoordashButton() {
   return (
     <a
-      href="https://www.doordash.com/business/431549/?utm_source=partner-link&utm_medium=website&utm_campaign=431549&utm_content=red-xl"
+      href="https://order.online/business/sasa-japanese-restaurant-431549"
       target="_blank"
       alt="Order Food Delivery with DoorDash"
       title="Order Food Delivery with DoorDash"

@@ -6,7 +6,7 @@ function Banner() {
     <div className="banner">
       {"We do delivery with "}
       <a
-        href="https://www.doordash.com/business/431549/?utm_source=partner-link&utm_medium=website&utm_campaign=431549&utm_content=red-xl"
+        href="https://order.online/business/sasa-japanese-restaurant-431549"
         target="_blank"
       >
         <div
