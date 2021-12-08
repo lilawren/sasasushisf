@@ -45,34 +45,37 @@ export default class Menu extends Component {
                     alt="togoMenu2"
                   />
                 </div>
-                {/* <h2>Lunch Menu</h2>
+                <br />
+                <hr />
+                <h2>Lunch Menu</h2>
                 <div className="menu-container">
                   <img
                     className="menu"
-                    src={require("../../assets/menu/lunch_omakase.jpg")}
+                    src={require("../../assets/menu/lunch1.jpg")}
                     alt="lunchMenu"
                   />
                 </div>
                 <div className="menu-container">
                   <img
                     className="menu"
-                    src={require("../../assets/menu/lunch_menu.jpg")}
+                    src={require("../../assets/menu/lunch2.jpg")}
                     alt="lunchMenu"
                   />
                 </div>
-                */}
-                <h2>In-person Dining Menu</h2>
+                <br />
+                <hr />
+                <h2>Dinner Menu</h2>
                 <div className="menu-container">
                   <img
                     className="menu"
-                    src={require("../../assets/menu/dining1.jpg")}
+                    src={require("../../assets/menu/dinner1.jpg")}
                     alt="diningMenu"
                   />
                 </div>
                 <div className="menu-container">
                   <img
                     className="menu"
-                    src={require("../../assets/menu/dining2.jpg")}
+                    src={require("../../assets/menu/dinner2.jpg")}
                     alt="diningMenu"
                   />
                 </div>
