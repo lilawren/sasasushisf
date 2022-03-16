@@ -18,13 +18,13 @@ function Banner() {
       </a>
       {" and in-store pickup with "}
       <a
-        href="https://ordering.app/api/clover/brand_url/?clover_merchant_id=TQSSQEWH5HNW1"
+        href="https://clover.com/online-ordering/sasa-japanese-restaurant-san-francisco-2"
         target="_blank"
       >
         <div
           className="ordering-logo"
           style={{
-            backgroundImage: `url(${require("../../assets/home/ordering.png")})`,
+            backgroundImage: `url(${require("../../assets/home/clover.png")})`,
           }}
         />
       </a>

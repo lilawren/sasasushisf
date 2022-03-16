@@ -30,7 +30,7 @@ export default class LocationPage extends Component {
                   <div>(415) 683-9674</div>
                 </div>
                 <h3>Hours</h3>
-                <div>Monday-Sunday</div>
+                <div>Tuesday-Sunday</div>
                 <div>12:00pm - 2:00pm</div>
                 <div>5:30pm-9:00pm</div>
               </div>

@@ -95,17 +95,6 @@ export default class Home extends Component {
                 and fish"
               </div>
             </div>
-            <div className="chef">
-              <img
-                className="portrait"
-                src={require("../../assets/home/chefs/chef_jing.jpg")}
-              />
-              <h4>HEAD CHEF JING</h4>
-              <div>
-                "I am passionate about bringing out the intricacies of umami in
-                Japanese cuisine."
-              </div>
-            </div>
           </div>
           <iframe
             id="yelp-reservations-widget"

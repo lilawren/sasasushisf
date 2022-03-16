@@ -24,8 +24,6 @@ export default class Menu extends Component {
               <div className="content-row">
                 <h2>To-go Menu</h2>
                 <div className="center">
-                  Note: We will still be accepting to-go orders during the
-                  Coronavirus quarantine.
                   <div className="order-buttons">
                     <DoordashButton />
                     <OrderingButton />
