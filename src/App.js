@@ -19,7 +19,6 @@ class App extends Component {
             <Route exact path="/" component={Home} />
             <Route exact path="/location" component={LocationPage} />
             <Route exact path="/menu" component={Menu} />
-            <Route exact path="/reservations" component={Reservations} />
           </div>
           <Footer />
         </div>

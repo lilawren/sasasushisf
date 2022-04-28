@@ -15,7 +15,11 @@ export default class NavBar extends Component {
           <Link className="mobile-hidden" to='/'>HOME</Link>
           <Link to='/location'>LOCATION</Link>
           <Link to='/menu'>MENU</Link>
-          <Link to='/reservations'>RESERVATIONS</Link>
+          <a href="https://www.yelp.com/reservations/sasa-japanese-restaurant-san-francisco-2" alt="Reserve on yelp"
+            title="Reserve on yelp"
+            style={{
+              "text-decoration": "none",
+            }}>RESERVATIONS</a>
         </div>
       </nav>
     );
