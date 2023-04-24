@@ -14,13 +14,15 @@ export default class Home extends Component {
     return (
       <div className="home">
         <Banner />
+
         <div className="video-borders">
-          <video
-            controls
-            autoPlay
-            muted
-            src="https://sasasushi.s3-us-west-1.amazonaws.com/VUE_20190605201117.mp4"
-          />
+          <iframe
+            src="https://player.vimeo.com/video/820394195?h=5b3d38e056&amp;badge=0&amp;autopause=0&amp;autoplay=1&amp;loop=1&amp;muted=1&amp;player_id=0&amp;app_id=58479"
+            frameborder="0"
+            allow="autoplay; fullscreen; picture-in-picture"
+            allowfullscreen
+            title="Welcome to Sasa!">
+          </iframe>
         </div>
 
         <div className="content-row">
