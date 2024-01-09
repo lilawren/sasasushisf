@@ -7,7 +7,6 @@ function Banner() {
       {"We do delivery with "}
       <a
         href="https://order.online/business/sasa-japanese-restaurant-431549"
-        target="_blank"
       >
         <div
           className="dd-logo"
@@ -18,13 +17,12 @@ function Banner() {
       </a>
       {" and in-store pickup with "}
       <a
-        href="https://clover.com/online-ordering/sasa-japanese-restaurant-san-francisco-2"
-        target="_blank"
+        href="https://order.toasttab.com/online/sasajapaneserestaurant"
       >
         <div
           className="ordering-logo"
           style={{
-            backgroundImage: `url(${require("../../assets/home/clover.png")})`,
+            backgroundImage: `url(${require("../../assets/home/toast_logo.png")})`,
           }}
         />
       </a>

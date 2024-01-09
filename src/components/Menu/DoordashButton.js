@@ -4,13 +4,18 @@ function DoordashButton() {
   return (
     <a
       href="https://order.online/business/sasa-japanese-restaurant-431549"
-      target="_blank"
       alt="Order Food Delivery with DoorDash"
       title="Order Food Delivery with DoorDash"
       style={{
         "text-decoration": "none",
+        "fontSize": "22px"
       }}
     >
+      <div style={{
+        "padding": "10px"
+      }}>
+        Delivery only
+      </div>
       <div
         style={{
           position: "relative",
@@ -23,7 +28,6 @@ function DoordashButton() {
       >
         Order Food Delivery with DoorDash
       </div>
-      (delivery only)
     </a>
   );
 }

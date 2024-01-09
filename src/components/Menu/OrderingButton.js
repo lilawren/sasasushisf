@@ -4,17 +4,20 @@ import "./OrderingButton.scss";
 function OrderingButton() {
   return (
     <a
-      href="https://clover.com/online-ordering/sasa-japanese-restaurant-san-francisco-2"
-      target="_blank"
-      rel="noopener noreferrer"
+      href="https://order.toasttab.com/online/sasajapaneserestaurant"
       className="ordering-button"
     >
+      <div style={{
+        "padding": "10px",
+      }}>
+        In-store pickup
+      </div>
       <div
+        className="btn-img"
         style={{
-          backgroundImage: `url(${require("../../assets/home/clover.png")})`,
+          backgroundImage: `url(${require("../../assets/home/toast_logo.png")})`,
         }}
       />
-      (in-store pickup)
     </a>
   );
 }
