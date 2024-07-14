@@ -29,7 +29,7 @@ export default class Menu extends Component {
                     <OrderingButton />
                   </div>
                 </div>
-                <h2>Dinner Menu</h2>
+                <h2>Menu</h2>
                 <div className="menu-container">
                   <img
                     className="menu"
