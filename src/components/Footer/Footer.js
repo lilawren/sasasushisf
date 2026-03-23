@@ -19,12 +19,9 @@ export default class Footer extends Component {
           </div>
           <div className="hours">
             <div>
-              <div>Monday</div>
-              <div>5:30pm-9:00pm</div>
-              <br />
-              <div>Tuesday-Sunday</div>
-              <div>12:00pm - 2:00pm</div>
-              <div>5:30pm - 9:00pm</div>
+              <div>Open daily</div>
+              <div>12–2 PM</div>
+              <div>5:30–9 PM</div>
             </div>
           </div>
         </div>
